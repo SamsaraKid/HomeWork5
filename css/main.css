@@ -1,0 +1,29 @@
+body{
+    font-family: Calibri, Arial, sans-serif;
+}
+
+div{
+    width: max-content;
+    background-color: azure;
+    padding: 40px;
+    margin: auto;
+}
+
+tr:nth-child(odd){
+    background-color: darkgrey;
+}
+
+tr:first-child, td:first-child{
+    background-color: cadetblue;
+    font-weight: bold;
+}
+
+table{
+    border-spacing: 0px;
+    text-align: center;
+}
+
+td{
+    padding: 10px 30px 10px 30px;
+}
+
